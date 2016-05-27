@@ -23,9 +23,16 @@
 文档仓库：cirrus-design
 代码仓库：cirrus-source
 
+### 3. 娱乐场所系统
+名称：娱乐场所系统
+代号：shasta
+简介：从业人员子平台提交考勤 Web API，行政管理子平台审核身份信息的 Web UI。
+文档仓库：shasta-design
+代码仓库：shasta-source
+
 ## 3. 微能力
 
-### 位置跟踪微能力
+### 1. 位置跟踪微能力
 名称：位置跟踪微能力
 代号：roraima
 简介：Practition API v1
