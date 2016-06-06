@@ -22,7 +22,7 @@
 
 项目的部署分为以下阶段：
 
-<table>
+<table class="table table-striped table-hover">
   <thead>
     <tr>
       <th>代号</th>
