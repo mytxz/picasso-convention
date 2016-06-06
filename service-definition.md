@@ -38,3 +38,10 @@
 简介：Practition API v1
 文档仓库：roraima-design
 代码仓库：roraima-source
+
+### 2. 协查通报微能力
+名称：协查通报微能力
+代号：frisian
+简介：Governance API v1, Practition API v1
+文档仓库：frisian-design
+代码仓库：frisian-source
