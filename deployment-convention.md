@@ -14,7 +14,7 @@
 
 ## 2. 项目代号
 
-平台的每个服务，都有一个代号，参考[服务定义](service-definition.md)
+平台的每个服务，都有一个代号，参考[服务定义](service-definition.md)。
 
 
 
@@ -22,7 +22,6 @@
 
 项目的部署分为以下阶段：
 
-```html
 <table>
   <thead>
     <tr>
@@ -74,4 +73,3 @@
     </tr>
   </tbody>
 </table>
-```
