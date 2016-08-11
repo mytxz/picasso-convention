@@ -45,3 +45,10 @@
 - 简介：Governance API v1, Practition API v1
 - 文档仓库：frisian-design
 - 代码仓库：frisian-source
+
+### 3. 身份服务微能力
+- 名称：身份服务微能力
+- 代号：kastrup
+- 简介：Governance API v1, Practition API v1
+- 文档仓库：kastrup-design
+- 代码仓库：kastrup-source
