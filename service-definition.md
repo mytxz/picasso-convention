@@ -6,6 +6,7 @@
 - 简介：基础功能（用户、权限体系）和核心功能（场所备案、从业人员备案），从业人员子平台 Web API 和 行政管理子平台 Web API。
 - 文档仓库：picasso-design
 - 代码仓库：picasso-source
+- 部署仓库：picasso-deploy
 
 ## 2. 微服务
 
@@ -46,9 +47,16 @@
 - 文档仓库：frisian-design
 - 代码仓库：frisian-source
 
-### 3. 身份服务微能力
-- 名称：身份服务微能力
+### 3. 身份通微能力
+- 名称：身份通微能力
 - 代号：kastrup
 - 简介：Governance API v1, Practition API v1
 - 文档仓库：kastrup-design
 - 代码仓库：kastrup-source
+
+### 4. 实名通微能力
+- 名称：实名通微能力
+- 代号：kericho
+- 简介：Governance API v1, Practition API v1
+- 文档仓库：kericho-design
+- 代码仓库：kericho-source
