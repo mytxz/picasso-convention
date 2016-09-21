@@ -1,5 +1,7 @@
 # 服务定义
 
+
+
 ## 1. 主服务
 - 名称：公共治安综合平台
 - 代号：picasso
@@ -7,6 +9,8 @@
 - 文档仓库：picasso-design
 - 代码仓库：picasso-source
 - 部署仓库：picasso-deploy
+
+
 
 ## 2. 微服务
 
@@ -20,7 +24,7 @@
 ### 2. 昆山快递实名系统
 - 名称：昆山快递实名系统
 - 代号：cirrus
-- 简介：从业人员子平台提交揽件信息 Web API，行政管理子平台审核身份信息的 Web UI。
+- 简介：从业人员子平台提交揽件信息 Web API，行政管理子平台查询身份信息的 Web UI。
 - 文档仓库：cirrus-design
 - 代码仓库：cirrus-source
 
@@ -30,6 +34,16 @@
 - 简介：从业人员子平台提交考勤 Web API，行政管理子平台审核身份信息的 Web UI。
 - 文档仓库：shasta-design
 - 代码仓库：shasta-source
+
+### 4. 昆山民宿系统
+- 名称：昆山民宿系统
+- 代号：saltee
+- 简介：从业人员子平台提交入住信息 Web API，行政管理子平台查询身份信息的 Web UI。
+- 文档仓库：saltee-design
+- 代码仓库：saltee-source
+- 部署仓库：saltee-deploy
+
+
 
 ## 3. 微能力
 
