@@ -80,7 +80,7 @@
       <td>ran.hongliang</td>
       <td>冉弘亮</td>
       <td>系统工程师</td>
-      <td>ran.hongliang@vdin.net</td>
+      <td>hongliang.ran@vdin.net</td>
       <td>13558715283</td>
       <td>system engineers 系统工程师</td>
     </tr>
