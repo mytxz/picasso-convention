@@ -70,6 +70,22 @@
 - 代码仓库：sumava-source
 - 部署仓库：sumava-deploy
 
+### 8. 寄卖监管系统
+- 名称：寄卖监管系统
+- 代号：mosier
+- 简介：从业人员子平台提交住宿备案信息 Web API，行政管理子平台查询住宿备案信息的 Web UI。
+- 文档仓库：mosier-design
+- 代码仓库：mosier-source
+- 部署仓库：mosier-deploy
+
+### 9. 典当监管系统
+- 名称：典当监管系统
+- 代号：moscow
+- 简介：从业人员子平台提交住宿备案信息 Web API，行政管理子平台查询住宿备案信息的 Web UI。
+- 文档仓库：moscow-design
+- 代码仓库：moscow-source
+- 部署仓库：moscow-deploy
+
 
 
 ## 3. 微能力
