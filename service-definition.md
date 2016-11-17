@@ -2,13 +2,23 @@
 
 
 
-## 1. 主服务
+## 1. 主服务和框架
+
+### 1. 主服务
 - 名称：公共治安综合平台
 - 代号：picasso
 - 简介：基础功能（用户、权限体系）和核心功能（场所备案、从业人员备案），从业人员子平台 Web API 和 行政管理子平台 Web API。
 - 文档仓库：picasso-design
 - 代码仓库：picasso-source
 - 部署仓库：picasso-deploy
+
+### 2. 微服务伴侣
+- 名称：微服务伴侣
+- 代号：pavilion
+- 简介：各个业务子系统可复用逻辑的代码库，以 Rails Engine 的形式发布成 Ruby Gem。
+- 文档仓库：pavilion-design
+- 代码仓库：pavilion-source
+- 部署仓库：pavilion-deploy
 
 
 
@@ -96,6 +106,7 @@
 - 简介：Practition API v1
 - 文档仓库：roraima-design
 - 代码仓库：roraima-source
+- 部署仓库：roraima-deploy
 
 ### 2. 协查通报微能力
 - 名称：协查通报微能力
@@ -103,6 +114,7 @@
 - 简介：Governance API v1, Practition API v1
 - 文档仓库：frisian-design
 - 代码仓库：frisian-source
+- 部署仓库：frisian-deploy
 
 ### 3. 身份通微能力
 - 名称：身份通微能力
@@ -110,6 +122,7 @@
 - 简介：Governance API v1, Practition API v1
 - 文档仓库：kastrup-design
 - 代码仓库：kastrup-source
+- 部署仓库：kastrup-deploy
 
 ### 4. 实名通微能力
 - 名称：实名通微能力
@@ -117,10 +130,12 @@
 - 简介：Governance API v1, Practition API v1
 - 文档仓库：kericho-design
 - 代码仓库：kericho-source
+- 部署仓库：kericho-deploy
 
 ### 5. QCloud IM 微能力
-- 名称：QCloud IM微能力
+- 名称：QCloud IM 微能力
 - 代号：meteora
 - 简介：Governance API v1, Practition API v1
 - 文档仓库：meteora-design
 - 代码仓库：meteora-source
+- 部署仓库：meteora-deploy
