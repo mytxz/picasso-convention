@@ -272,7 +272,7 @@ __系统管理平台 Web API 表现控制器__是 app/controllers/administration
 (app/controllers/administration/dosser/v1/presentation_controller.rb)
 
 ```ruby
-class Administration::Dosser::V1::PresentationController < ::ApplicationController
+class Administration::Dosser::V1::PresentationController < ApplicationController
 
   clear_helpers
 
@@ -287,7 +287,7 @@ __系统管理平台 Web API 门户控制器__是整个子平台的入口。它�
 (app/controllers/administration/dosser/v1/portals_controller.rb)
 
 ```ruby
-class Administration::Dosser::V1::::PortalsController < Administration::Dosser::V1::PresentationController
+class Administration::Dosser::V1::PortalsController < Administration::Dosser::V1::PresentationController
 
   def show
 
@@ -314,7 +314,7 @@ __行政管理平台 Web API 表现控制器__是 app/controllers/governance/dos
 (app/controllers/governance/dosser/v1/presentation_controller.rb)
 
 ```ruby
-class Governance::Dosser::V1::PresentationController < ::ApplicationController
+class Governance::Dosser::V1::PresentationController < ApplicationController
 
   clear_helpers
 
@@ -329,7 +329,7 @@ __行政管理平台 Web API 门户控制器__是整个子平台的入口。它�
 (app/controllers/governance/dosser/v1/portals_controller.rb)
 
 ```ruby
-class Governance::Dosser::V1::::PortalsController < Governance::Dosser::V1::PresentationController
+class Governance::Dosser::V1::PortalsController < Governance::Dosser::V1::PresentationController
 
   def show
 
@@ -356,7 +356,7 @@ __从业人员平台 Web API 表现控制器__是 app/controllers/practition/dos
 (app/controllers/practition/dosser/v1/presentation_controller.rb)
 
 ```ruby
-class Practition::Dosser::V1::PresentationController < ::ApplicationController
+class Practition::Dosser::V1::PresentationController < ApplicationController
 
   clear_helpers
 
@@ -371,7 +371,7 @@ __从业人员平台 Web API 门户控制器__是整个子平台的入口。它�
 (app/controllers/practition/dosser/v1/portals_controller.rb)
 
 ```ruby
-class Practition::Dosser::V1::::PortalsController < Practition::Dosser::V1::PresentationController
+class Practition::Dosser::V1::PortalsController < Practition::Dosser::V1::PresentationController
 
   def show
 
