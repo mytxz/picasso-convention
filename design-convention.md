@@ -39,15 +39,21 @@
 
 ```ruby
 namespace :administration do
-  resources :dashboards, only: :show
+  resources :v1 do
+    resources :dashboards, only: :show
+  end
 end
 
 namespace :governance do
-  resources :dashboards, only: :show
+  resources :v1 do
+    resources :dashboards, only: :show
+  end
 end
 
 namespace :practition do
-  resources :dashboards, only: :show
+  resources :v1 do
+    resources :dashboards, only: :show
+  end
 end
 ```
 
@@ -58,11 +64,11 @@ end
 __授权保护的关注模块__ (app/controllers/concerns/priviledge_protection.rb) 负责实现控制器层的会话安全控制。
 
 2. 系统管理平台控制器  
-__系统管理平台特权控制器__是 app/controllers/administration/ 下的所有控制器——会话相关的控制器除外——的基类。
-(app/controllers/administration/privileged_controller.rb)
+__系统管理平台特权控制器__是 app/controllers/administration/v1/ 下的所有控制器——会话相关的控制器除外——的基类。
+(app/controllers/administration/v1/privileged_controller.rb)
 
 ```ruby
-class Administration::PrivilegedController < ::ApplicationController
+class Administration::V1::PrivilegedController < ApplicationController
 
   layout 'administration'
 
@@ -74,24 +80,24 @@ end
 ```
 
 __系统管理平台控制板控制器__是整个子平台的入口。如果不需要控制板，则直接在 #show 方法中重定向到对应的页面。
-(app/controllers/administration/dashboards_controller.rb)
+(app/controllers/administration/v1/dashboards_controller.rb)
 
 ```ruby
-class Administration::DashboardsController < Administration::PrivilegedController
+class Administration::V1::DashboardsController < Administration::V1::PrivilegedController
 
   def show
-    redirect_to administration_profiles_path(Unidom::Common::SELF)
+    redirect_to administration_v1_profiles_path(Unidom::Common::SELF)
   end
 
 end
 ```
 
 3. 行政管理平台控制器  
-__行政管理平台特权控制器__是 app/controllers/governance/ 下的所有控制器——会话相关的控制器除外——的基类。
-(app/controllers/governance/privileged_controller.rb)
+__行政管理平台特权控制器__是 app/controllers/governance/v1/ 下的所有控制器——会话相关的控制器除外——的基类。
+(app/controllers/governance/v1/privileged_controller.rb)
 
 ```ruby
-class Governance::PrivilegedController < ::ApplicationController
+class Governance::V1::PrivilegedController < ApplicationController
 
   layout 'governance'
 
@@ -103,24 +109,24 @@ end
 ```
 
 __行政管理平台控制板控制器__是整个子平台的入口。如果不需要控制板，则直接在 #show 方法中重定向到对应的页面。
-(app/controllers/governance/dashboards_controller.rb)
+(app/controllers/governance/v1/dashboards_controller.rb)
 
 ```ruby
-class Governance::DashboardsController < Governance::PrivilegedController
+class Governance::V1::DashboardsController < Governance::V1::PrivilegedController
 
   def show
-    redirect_to governance_profiles_path(Unidom::Common::SELF)
+    redirect_to governance_v1_profiles_path(Unidom::Common::SELF)
   end
 
 end
 ```
 
 4. 从业人员平台控制器  
-__从业人员平台特权控制器__是 app/controllers/practition/ 下的所有控制器——会话相关的控制器除外——的基类。
-(app/controllers/practition/privileged_controller.rb)
+__从业人员平台特权控制器__是 app/controllers/practition/v1/ 下的所有控制器——会话相关的控制器除外——的基类。
+(app/controllers/practition/v1/privileged_controller.rb)
 
 ```ruby
-class Practition::PrivilegedController < ::ApplicationController
+class Practition::V1::PrivilegedController < ApplicationController
 
   layout 'practition'
 
@@ -132,13 +138,13 @@ end
 ```
 
 __从业人员平台控制板控制器__是整个子平台的入口。如果不需要控制板，则直接在 #show 方法中重定向到对应的页面。
-(app/controllers/practition/dashboards_controller.rb)
+(app/controllers/practition/v1/dashboards_controller.rb)
 
 ```ruby
-class Practition::DashboardsController < Practition::PrivilegedController
+class Practition::V1::DashboardsController < Practition::V1::PrivilegedController
 
   def show
-    redirect_to practition_profiles_path(Unidom::Common::SELF)
+    redirect_to practition_v1_profiles_path(Unidom::Common::SELF)
   end
 
 end
@@ -150,17 +156,17 @@ end
 1. 布局 Layout
 
 每个子平台都必须有自己的独立的布局文件。3个子平台的布局文件分别为：
-- app/views/layouts/administration.html.erb
-- app/views/layouts/governance.html.erb
-- app/views/layouts/practition.html.erb
+- app/views/layouts/administration_v1.html.erb
+- app/views/layouts/governance_v1.html.erb
+- app/views/layouts/practition_v1.html.erb
 
 
 2. 共享视图片段 Shared
 
 每个子平台都必须建立自己的独立的 shared 目录：
-- app/views/administration/shared/
-- app/views/governance/shared/
-- app/views/practition/shared/
+- app/views/administration/v1/shared/
+- app/views/governance/v1/shared/
+- app/views/practition/v1/shared/
 
 除此之外，还可以维护一个公共的 shared 目录： app/views/shared/
 
@@ -181,27 +187,27 @@ end
 ### 5. 图片 Image
 
 每个子平台都必须建立自己的独立的图片目录：
-- app/assets/images/administration/
-- app/assets/images/governance/
-- app/assets/images/practition/
+- app/assets/images/administration/v1/
+- app/assets/images/governance/v1/
+- app/assets/images/practition/v1/
 
 除此之外，还可以维护一个公共的 shared 目录： app/assets/images/shared/
 
 ### 6. 样式 CSS
 
 每个子平台都必须建立自己的独立的 CSS 目录：
-- app/assets/stylesheets/administration/
-- app/assets/stylesheets/governance/
-- app/assets/stylesheets/practition/
+- app/assets/stylesheets/administration/v1/
+- app/assets/stylesheets/governance/v1/
+- app/assets/stylesheets/practition/v1/
 
 TODO: 进一步定义清单文件和库文件的规范。
 
 ### 7. 脚本 JavaScript
 
 每个子平台都必须建立自己的独立的 JavaScript 目录：
-- app/assets/javascripts/administration/
-- app/assets/javascripts/governance/
-- app/assets/javascripts/practition/
+- app/assets/javascripts/administration/v1/
+- app/assets/javascripts/governance/v1/
+- app/assets/javascripts/practition/v1/
 
 TODO: 进一步定义清单文件和库文件的规范。
 
