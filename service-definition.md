@@ -96,6 +96,14 @@
 - 代码仓库：moscow-source
 - 部署仓库：moscow-deploy
 
+### 10. 开锁监管系统
+- 名称：开锁监管系统
+- 代号：ladakh
+- 简介：从业人员子平台提交开锁备案信息 Web API，行政管理子平台查询开锁备案信息的 Web UI。
+- 文档仓库：ladakh-design
+- 代码仓库：ladakh-source
+- 部署仓库：ladakh-deploy
+
 
 
 ## 3. 微能力
