@@ -145,6 +145,12 @@
 - 行业代码：CRNT
 
 ### 15. 金银加工置换业
+- 名称：金银加工置换
+- 代号：munich
+- 简介：从业人员子平台提交维修备案信息 Web API，行政管理子平台查询维修备案信息的 Web UI。
+- 文档仓库：munich-design
+- 代码仓库：munich-source
+- 部署仓库：munich-deploy
 - 行业代码：GSPR
 
 ### 16. 二手交易
