@@ -136,6 +136,12 @@
 - 行业代码：OMVT
 
 ### 14. 机动车租赁系统
+- 名称：机动车租赁系统
+- 代号：autumn
+- 简介：从业人员子平台提交维修备案信息 Web API，行政管理子平台查询维修备案信息的 Web UI。
+- 文档仓库：autumn-design
+- 代码仓库：autumn-source
+- 部署仓库：autumn-deploy
 - 行业代码：CRNT
 
 ### 15. 金银加工置换业
