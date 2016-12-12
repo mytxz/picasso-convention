@@ -31,6 +31,7 @@
 - 文档仓库：walrus-design
 - 代码仓库：walrus-source
 - 部署仓库：walrus-deploy
+- 行业代码：LODG
 
 ### 2. 昆山快递实名系统
 - 名称：昆山快递实名系统
@@ -39,6 +40,7 @@
 - 文档仓库：cirrus-design
 - 代码仓库：cirrus-source
 - 部署仓库：cirrus-deploy
+- 行业代码：EXPR
 
 ### 3. 娱乐场所系统
 - 名称：娱乐场所系统
@@ -47,6 +49,7 @@
 - 文档仓库：shasta-design
 - 代码仓库：shasta-source
 - 部署仓库：shasta-deploy
+- 行业代码：ENTR
 
 ### 4. 昆山民宿系统
 - 名称：昆山民宿系统
@@ -55,6 +58,7 @@
 - 文档仓库：saltee-design
 - 代码仓库：saltee-source
 - 部署仓库：saltee-deploy
+- 行业代码：HMST
 
 ### 5. 民用爆破工程系统
 - 名称：民用爆破工程系统
@@ -63,6 +67,7 @@
 - 文档仓库：basalt-design
 - 代码仓库：basalt-source
 - 部署仓库：basalt-deploy
+- 行业代码：BLST
 
 ### 6. 废品回收系统
 - 名称：废品回收工程系统
@@ -71,6 +76,7 @@
 - 文档仓库：rakotz-design
 - 代码仓库：rakotz-source
 - 部署仓库：rakotz-deploy
+- 行业代码：RCCL
 
 ### 7. 连云港住宿系统
 - 名称：连云港住宿系统
@@ -79,6 +85,7 @@
 - 文档仓库：sumava-design
 - 代码仓库：sumava-source
 - 部署仓库：sumava-deploy
+- 行业代码：
 
 ### 8. 寄卖监管系统
 - 名称：寄卖监管系统
@@ -87,6 +94,7 @@
 - 文档仓库：mosier-design
 - 代码仓库：mosier-source
 - 部署仓库：mosier-deploy
+- 行业代码：CSGN
 
 ### 9. 典当监管系统
 - 名称：典当监管系统
@@ -95,6 +103,7 @@
 - 文档仓库：moscow-design
 - 代码仓库：moscow-source
 - 部署仓库：moscow-deploy
+- 行业代码：PBRK
 
 ### 10. 开锁监管系统
 - 名称：开锁监管系统
@@ -103,6 +112,42 @@
 - 文档仓库：ladakh-design
 - 代码仓库：ladakh-source
 - 部署仓库：ladakh-deploy
+- 行业代码：LOCK
+
+### 11. 机动车维修系统
+- 名称：机动车维修系统
+- 代号：albert
+- 简介：从业人员子平台提交维修备案信息 Web API，行政管理子平台查询维修备案信息的 Web UI。
+- 文档仓库：albert-design
+- 代码仓库：albert-source
+- 部署仓库：albert-deploy
+- 行业代码：MVMT
+
+### 12. 机动车拆解系统
+- 名称：机动车拆解系统
+- 代号：andres
+- 简介：从业人员子平台提交维修备案信息 Web API，行政管理子平台查询维修备案信息的 Web UI。
+- 文档仓库：andres-design
+- 代码仓库：andres-source
+- 部署仓库：andres-deploy
+- 行业代码：SMVR
+
+### 13. 二手机动车交易系统
+- 行业代码：OMVT
+
+### 14. 机动车租赁系统
+- 行业代码：CRNT
+
+### 15. 金银加工置换业
+- 行业代码：GSPR
+
+### 16. 二手交易
+- 行业代码：SCDT
+
+### 17. 印刷业
+- 行业代码：PRNT
+
+### 18. 刻章
 
 
 
