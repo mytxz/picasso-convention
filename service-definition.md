@@ -33,53 +33,8 @@
 - 部署仓库：walrus-deploy
 - 行业代码：LODG
 
-### 2. 昆山快递实名系统
-- 名称：昆山快递实名系统
-- 代号：cirrus
-- 简介：从业人员子平台提交揽件信息 Web API，行政管理子平台查询身份信息的 Web UI。
-- 文档仓库：cirrus-design
-- 代码仓库：cirrus-source
-- 部署仓库：cirrus-deploy
-- 行业代码：EXPR
-
-### 3. 娱乐场所系统
-- 名称：娱乐场所系统
-- 代号：shasta
-- 简介：从业人员子平台提交考勤 Web API，行政管理子平台审核身份信息的 Web UI。
-- 文档仓库：shasta-design
-- 代码仓库：shasta-source
-- 部署仓库：shasta-deploy
-- 行业代码：ENTR
-
-### 4. 昆山民宿系统
-- 名称：昆山民宿系统
-- 代号：saltee
-- 简介：从业人员子平台提交入住信息 Web API，行政管理子平台查询身份信息的 Web UI。
-- 文档仓库：saltee-design
-- 代码仓库：saltee-source
-- 部署仓库：saltee-deploy
-- 行业代码：HMST
-
-### 5. 民用爆破工程系统
-- 名称：民用爆破工程系统
-- 代号：basalt
-- 简介：从业人员子平台提交爆破作业信息 Web API，行政管理子平台查询爆破作业信息的 Web UI。
-- 文档仓库：basalt-design
-- 代码仓库：basalt-source
-- 部署仓库：basalt-deploy
-- 行业代码：BLST
-
-### 6. 废品回收系统
-- 名称：废品回收工程系统
-- 代号：rakotz
-- 简介：从业人员子平台提交废品回收信息 Web API，行政管理子平台查询废品回收信息的 Web UI。
-- 文档仓库：rakotz-design
-- 代码仓库：rakotz-source
-- 部署仓库：rakotz-deploy
-- 行业代码：RCCL
-
-### 7. 连云港住宿系统
-- 名称：连云港住宿系统
+### 2. 住宿
+- 名称：住宿（连云港）
 - 代号：sumava
 - 简介：从业人员子平台提交住宿备案信息 Web API，行政管理子平台查询住宿备案信息的 Web UI。
 - 文档仓库：sumava-design
@@ -87,26 +42,26 @@
 - 部署仓库：sumava-deploy
 - 行业代码：
 
-### 8. 寄卖监管系统
-- 名称：寄卖监管系统
-- 代号：mosier
-- 简介：从业人员子平台提交住宿备案信息 Web API，行政管理子平台查询住宿备案信息的 Web UI。
-- 文档仓库：mosier-design
-- 代码仓库：mosier-source
-- 部署仓库：mosier-deploy
-- 行业代码：CSGN
+### 3. 民宿
+- 名称：民宿
+- 代号：saltee
+- 简介：从业人员子平台提交入住信息 Web API，行政管理子平台查询身份信息的 Web UI。
+- 文档仓库：saltee-design
+- 代码仓库：saltee-source
+- 部署仓库：saltee-deploy
+- 行业代码：HMST
 
-### 9. 典当监管系统
-- 名称：典当监管系统
-- 代号：moscow
-- 简介：从业人员子平台提交住宿备案信息 Web API，行政管理子平台查询住宿备案信息的 Web UI。
-- 文档仓库：moscow-design
-- 代码仓库：moscow-source
-- 部署仓库：moscow-deploy
-- 行业代码：PBRK
+### 4. 娱乐场所
+- 名称：娱乐场所
+- 代号：shasta
+- 简介：从业人员子平台提交考勤 Web API，行政管理子平台审核身份信息的 Web UI。
+- 文档仓库：shasta-design
+- 代码仓库：shasta-source
+- 部署仓库：shasta-deploy
+- 行业代码：ENTR
 
-### 10. 开锁监管系统
-- 名称：开锁监管系统
+### 5. 开锁
+- 名称：开锁
 - 代号：ladakh
 - 简介：从业人员子平台提交开锁备案信息 Web API，行政管理子平台查询开锁备案信息的 Web UI。
 - 文档仓库：ladakh-design
@@ -114,55 +69,25 @@
 - 部署仓库：ladakh-deploy
 - 行业代码：LOCK
 
-### 11. 机动车维修系统
-- 名称：机动车维修系统
-- 代号：albert
-- 简介：从业人员子平台提交维修备案信息 Web API，行政管理子平台查询维修备案信息的 Web UI。
-- 文档仓库：albert-design
-- 代码仓库：albert-source
-- 部署仓库：albert-deploy
-- 行业代码：MVMT
+### 6. 快递
+- 名称：快递
+- 代号：cirrus
+- 简介：从业人员子平台提交揽件信息 Web API，行政管理子平台查询身份信息的 Web UI。
+- 文档仓库：cirrus-design
+- 代码仓库：cirrus-source
+- 部署仓库：cirrus-deploy
+- 行业代码：EXPR
 
-### 12. 机动车拆解系统
-- 名称：机动车拆解系统
-- 代号：andres
-- 简介：从业人员子平台提交维修备案信息 Web API，行政管理子平台查询维修备案信息的 Web UI。
-- 文档仓库：andres-design
-- 代码仓库：andres-source
-- 部署仓库：andres-deploy
-- 行业代码：SMVR
+### 7. 废品回收
+- 名称：废品回收
+- 代号：rakotz
+- 简介：从业人员子平台提交废品回收信息 Web API，行政管理子平台查询废品回收信息的 Web UI。
+- 文档仓库：rakotz-design
+- 代码仓库：rakotz-source
+- 部署仓库：rakotz-deploy
+- 行业代码：RCCL
 
-### 13. 二手机动车交易系统
-- 行业代码：OMVT
-
-### 14. 机动车租赁系统
-- 名称：机动车租赁系统
-- 代号：autumn
-- 简介：从业人员子平台提交维修备案信息 Web API，行政管理子平台查询维修备案信息的 Web UI。
-- 文档仓库：autumn-design
-- 代码仓库：autumn-source
-- 部署仓库：autumn-deploy
-- 行业代码：CRNT
-
-### 15. 金银加工置换业
-- 名称：金银加工置换
-- 代号：munich
-- 简介：从业人员子平台提交维修备案信息 Web API，行政管理子平台查询维修备案信息的 Web UI。
-- 文档仓库：munich-design
-- 代码仓库：munich-source
-- 部署仓库：munich-deploy
-- 行业代码：GSPR
-
-### 16. 二手交易
-- 名称：二手交易
-- 代号：museum
-- 简介：从业人员子平台提交维修备案信息 Web API，行政管理子平台查询维修备案信息的 Web UI。
-- 文档仓库：museum-design
-- 代码仓库：museum-source
-- 部署仓库：museum-deploy
-- 行业代码：SCDT
-
-### 17. 印刷业
+### 8. 印刷
 - 名称：印刷
 - 代号：penang
 - 简介：从业人员子平台提交维修备案信息 Web API，行政管理子平台查询维修备案信息的 Web UI。
@@ -171,7 +96,86 @@
 - 部署仓库：penang-deploy
 - 行业代码：PRNT
 
-### 18. 刻章
+### 9. 刻章
+
+### 10. 暂缺
+
+### 11. 寄卖
+- 名称：寄卖
+- 代号：mosier
+- 简介：从业人员子平台提交住宿备案信息 Web API，行政管理子平台查询住宿备案信息的 Web UI。
+- 文档仓库：mosier-design
+- 代码仓库：mosier-source
+- 部署仓库：mosier-deploy
+- 行业代码：CSGN
+
+### 12. 典当
+- 名称：典当
+- 代号：moscow
+- 简介：从业人员子平台提交住宿备案信息 Web API，行政管理子平台查询住宿备案信息的 Web UI。
+- 文档仓库：moscow-design
+- 代码仓库：moscow-source
+- 部署仓库：moscow-deploy
+- 行业代码：PBRK
+
+### 13. 金银加工置换
+- 名称：金银加工置换
+- 代号：munich
+- 简介：从业人员子平台提交维修备案信息 Web API，行政管理子平台查询维修备案信息的 Web UI。
+- 文档仓库：munich-design
+- 代码仓库：munich-source
+- 部署仓库：munich-deploy
+- 行业代码：GSPR
+
+### 14. 二手交易
+- 名称：二手交易
+- 代号：museum
+- 简介：从业人员子平台提交维修备案信息 Web API，行政管理子平台查询维修备案信息的 Web UI。
+- 文档仓库：museum-design
+- 代码仓库：museum-source
+- 部署仓库：museum-deploy
+- 行业代码：SCDT
+
+### 15. 暂缺
+
+### 16. 机动车维修
+- 名称：机动车维修
+- 代号：albert
+- 简介：从业人员子平台提交维修备案信息 Web API，行政管理子平台查询维修备案信息的 Web UI。
+- 文档仓库：albert-design
+- 代码仓库：albert-source
+- 部署仓库：albert-deploy
+- 行业代码：MVMT
+
+### 17. 机动车拆解
+- 名称：机动车拆解
+- 代号：andres
+- 简介：从业人员子平台提交维修备案信息 Web API，行政管理子平台查询维修备案信息的 Web UI。
+- 文档仓库：andres-design
+- 代码仓库：andres-source
+- 部署仓库：andres-deploy
+- 行业代码：SMVR
+
+### 18. 二手机动车交易
+- 行业代码：OMVT
+
+### 19. 机动车租赁
+- 名称：机动车租赁
+- 代号：autumn
+- 简介：从业人员子平台提交维修备案信息 Web API，行政管理子平台查询维修备案信息的 Web UI。
+- 文档仓库：autumn-design
+- 代码仓库：autumn-source
+- 部署仓库：autumn-deploy
+- 行业代码：CRNT
+
+### 20. 民用爆破工程
+- 名称：民用爆破工程
+- 代号：basalt
+- 简介：从业人员子平台提交爆破作业信息 Web API，行政管理子平台查询爆破作业信息的 Web UI。
+- 文档仓库：basalt-design
+- 代码仓库：basalt-source
+- 部署仓库：basalt-deploy
+- 行业代码：BLST
 
 
 
