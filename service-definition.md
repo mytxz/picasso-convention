@@ -163,6 +163,12 @@
 - 行业代码：SCDT
 
 ### 17. 印刷业
+- 名称：印刷
+- 代号：penang
+- 简介：从业人员子平台提交维修备案信息 Web API，行政管理子平台查询维修备案信息的 Web UI。
+- 文档仓库：penang-design
+- 代码仓库：penang-source
+- 部署仓库：penang-deploy
 - 行业代码：PRNT
 
 ### 18. 刻章
