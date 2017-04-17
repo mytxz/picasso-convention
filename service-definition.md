@@ -29,7 +29,9 @@
 - 代号：walrus
 - 简介：从业人员子平台提交身份信息 Web UI 和 Web API，行政管理子平台审核身份信息的 Web UI。
 - 文档仓库：walrus-design
-- 代码仓库：walrus-source
+- Ruby代码仓库：walrus-source
+- Java代码仓库：walrus-java-source
+- Web代码仓库： walrus-web-source
 - 部署仓库：walrus-deploy
 - 行业代码：LODG
 
@@ -75,6 +77,8 @@
 - 简介：从业人员子平台提交揽件信息 Web API，行政管理子平台查询身份信息的 Web UI。
 - 文档仓库：cirrus-design
 - 代码仓库：cirrus-source
+- Java代码仓库：cirrus-java-lan-source
+- Web代码仓库： cirrus-web-lan-source
 - 部署仓库：cirrus-deploy
 - 行业代码：EXPR
 
@@ -106,7 +110,6 @@
 - 代码仓库：quinoa-source
 - 部署仓库：quinoa-deploy
 - 行业代码：SCRT
-
 
 ### 11. 寄卖
 - 名称：寄卖
@@ -151,7 +154,10 @@
 - 代号：albert
 - 简介：从业人员子平台提交维修备案信息 Web API，行政管理子平台查询维修备案信息的 Web UI。
 - 文档仓库：albert-design
-- 代码仓库：albert-source
+- Rails 代码仓库：albert-source
+- 局域网版 Java 代码仓库：albert-lan-java-source
+- 广域网版 Java 代码仓库：albert-wan-java-source
+- 局域网版 Web 代码仓库： albert-lan-web-source
 - 部署仓库：albert-deploy
 - 行业代码：MVMT
 
